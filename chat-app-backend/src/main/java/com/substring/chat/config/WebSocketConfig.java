@@ -1,6 +1,7 @@
 package com.substring.chat.config;
 
-import java.net.http.WebSocket;
+import org.springframework.web.socket.config.annotation.*;
+
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
